@@ -1,0 +1,90 @@
+body{
+    background-color:blueviolet
+}
+
+.container{
+    width: 70%;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: 'spicy rice',sans-serif;
+    font-size: 7rem;
+    color: #31e7ab;
+    margin: 30px;
+    text-shadow: red 9px 9px;
+}
+
+p{
+    font-family: 'spicy rice',sans-serif;
+    font-size: 2rem;
+    color: #31e7ab;
+    text-shadow: red 4px 4px;
+}
+
+
+.align{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+img {
+    width: 50%;
+}
+
+footer{
+    text-align:right;
+    margin-top: 20%;
+}
+
+footer > p{
+    font-size: 1rem;
+}
+
+.refresh-button
+{
+    background-color: black;
+    font-family: 'spicy rice',serif;
+    color: #31e7ab;
+    text-shadow: red 1px 2px;
+    height: 10vh;
+    width: 13vw;
+    margin-top: 50px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 640px){
+
+    body{
+        height: 40vh;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 3rem;
+    }
+
+    .align{
+        display: block;
+    }
+
+    img{
+        width: 30%;
+    }
+
+    .refresh-button{
+        height: 10vh;
+        width: 23vw;
+    }
+}
+
