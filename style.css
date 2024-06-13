@@ -44,6 +44,21 @@ footer > p{
     font-size: 1rem;
 }
 
+.refresh-button
+{
+    background-color: black;
+    font-family: 'spicy rice',serif;
+    color: #31e7ab;
+    text-shadow: red 1px 2px;
+    height: 10vh;
+    width: 13vw;
+    margin-top: 50px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
 
 @media(max-width: 640px){
 
@@ -66,4 +81,10 @@ footer > p{
     img{
         width: 30%;
     }
+
+    .refresh-button{
+        height: 10vh;
+        width: 23vw;
+    }
 }
+
