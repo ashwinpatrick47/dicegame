@@ -43,3 +43,27 @@ footer{
 footer > p{
     font-size: 1rem;
 }
+
+
+@media(max-width: 640px){
+
+    body{
+        height: 40vh;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 3rem;
+    }
+
+    .align{
+        display: block;
+    }
+
+    img{
+        width: 30%;
+    }
+}
