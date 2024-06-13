@@ -72,3 +72,9 @@ else
 {
     document.querySelector("h1").innerHTML = "Player 2 Wins";
 }
+
+const refreshPage = () => {
+  location.reload();
+}
+
+refreshButton.addEventListener('click', refreshPage)
